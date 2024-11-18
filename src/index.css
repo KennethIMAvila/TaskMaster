@@ -1,0 +1,746 @@
+  *{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Welcome page styling */
+.welcome-header {
+  text-align: left;
+  margin-bottom: 1vh;
+  height: 9vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.logo {
+  position: absolute;
+  left: 1vw;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+}
+
+.welcome-title {
+  color: white;
+  position: absolute;
+  left: 4.5vw;
+  font-size: 5vh;
+  margin-left: 1vw;
+}
+
+.aboutus {
+  position: absolute;
+  right: 1vw;
+  color: white;
+  font-size: 3.5vh;
+  background: none;
+  border: none;
+}
+
+.aboutusline {
+  position: absolute;
+  right: 1vw;
+  top: 3vh;
+  color: white;
+  font-size: 3.5vh;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.body h2 {
+  font-size: 5vh;
+  text-align: center;
+}
+
+.body button {
+  position: absolute;
+  padding: 10px 40px;
+  border-radius: 30px;
+  border: 2px solid black;
+  top: 70vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5vh;
+  background: none;
+  transition: background-color 0.3s ease;
+}
+
+.body button p {
+  color: black;
+  font-size: 4vh;
+  transition: color 0.3s ease;   
+}
+
+.body button:hover {
+  background-color: black;
+  border: 2px solid white;
+}
+
+.body button:hover p {
+  color: white;
+}
+
+.body button .Link {
+  text-decoration: white;
+}
+
+
+
+/* Signinup page styling */
+.signinup-header {
+  text-align: left;
+  margin-bottom: 1vh;
+  height: 9vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.logo {
+  position: absolute;
+  left: 1vw;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+}
+
+.welcome-title {
+  color: white;
+  position: absolute;
+  left: 4.5vw;
+  font-size: 5vh;
+  margin-left: 1vw;
+}
+
+.flexdirection {
+  display: flex;
+  flex-direction: row;
+}
+
+.signupform {
+  width: 18vw;        
+  height: 70vh;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  top: 15vh;
+  right: 6vw;
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.signinform {
+  width: 18vw;        
+  height: 70vh;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  top: 15vh;
+  right: 6vw;
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 20px;
+}   
+
+.welcomedesign {
+  width: 60vw;        
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  position: absolute;
+  top: 18vh;
+  left: 6vw;
+}
+
+.welcomedesign h1 {
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.welcomedesign img {
+  width: 50vw;
+  height: 25vw;
+  border: 2px solid black;
+}
+
+h2 {
+  margin-bottom: 3vh;
+  align-items: left;
+  font-size: 30px;
+}
+
+.labels {
+  font-size: 15px;
+  margin-bottom: 1vh;
+}
+
+.inputs {    
+  padding: 5px;
+  margin-bottom: 2vh;
+  border: 1px solid #b0b0b0;
+  border-radius: 5px;
+}
+
+.signupform .signupbut {
+  padding: 8px;
+  margin-top: 4vh;
+  border: 1px solid #b0b0b0;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signupform .signupbut p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.signupform .signin {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+}
+
+.signupform .signinlink {
+  font-weight: bold;
+}
+
+.signinform .signinbut {
+  padding: 8px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  border: 1px solid #b0b0b0;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signinform .signinbut p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.signinform .gogbut {
+  padding: 8px;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: #F2F2F2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signinform .gogbut p {
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+}
+
+.signinform .gitbut {
+  padding: 8px;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border: 1px solid #b0b0b0;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signinform .gitbut p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.signup {
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  margin-top: 4vh;
+}
+
+.signup a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+/* Main layout */
+/* Header styling */
+.Dashboard-header {
+    text-align: left;
+    margin-bottom: 1vh;
+    height: 9vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.App-logo {
+    position: absolute;
+    left: 1vw;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+}
+
+.App-name {
+    color: white;
+    position: absolute;
+    left: 4.5vw;
+    font-size: 5vh;
+    margin-left: 1vw;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 20vw;
+    background: #F2F2F2; /* Darker background for sidebar */
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 96vh;
+    position: absolute;
+  }
+  
+  /* Sidebar navigation */
+  .sidebar nav ul {
+    list-style: none;
+    padding-top: 8rem;
+  }
+  
+  .sidebar nav ul li {
+    padding: 10px 0;
+    background-color: transparent;
+    margin: 5px 0;
+    width: 20vw;
+    height: 30px;
+    color: black;
+  }
+  
+  .sidebar nav ul li a {
+    margin-left: 2.5vw;
+    text-decoration: none;
+    font-size: 1.6rem;
+    width: 20vw;
+    height: 20px;
+    color: black;
+  }
+  
+  .sidebar nav ul li:hover {
+    background-color: black;
+    transition: .8s;
+  }
+
+  .sidebar nav ul li:hover a {  
+    color: white;    
+    transition: .8s;
+  }
+  
+  .logout-button {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    transform: scaleX(-1);
+  }
+
+
+
+/*****TaskList******/ 
+/* Task list container styling */
+.task-list-container {
+    background: transparent;
+    border-radius: 10px;
+    margin: 20px;
+    position: absolute;
+    top: 10vh;
+    right: 2.5vw;
+    width: 72vw;
+    height: 75vh;
+  }
+
+  .task-list-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin-bottom: 1rem;
+  }
+  
+  .task-list-container h1 {
+    font-size: 2.2rem;
+    color: black;
+    margin-bottom: .1rem;
+  }
+  
+  .task-list-container p {
+    font-size: 1.2rem;
+    color: black;
+  }
+  
+  .task-items {
+    background: #f4f4f4;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .task-items table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-items th, .task-items td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .task-items th {
+    background: #181818;
+    color: white;
+  }
+  
+  .task-items td {
+    text-align: left;
+  }
+  
+  .task-items button {
+    margin: 5px 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    border: #333 solid 1px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .task-items button:hover {
+    background: #181527;
+    color: white;
+  }
+  
+  .add-task-button {
+    font-size: 1rem;
+    position: absolute;
+    padding: 10px 20px;
+    background: #181818;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    right: 0;
+  }
+  
+  .add-task-button:hover {
+    background: rgb(48, 48, 48);
+  }
+  
+/*****AddTaskModal******/ 
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(60, 58, 58);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+  }
+  
+  .modal h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #f1e9e9;
+  }
+  
+  .modal form {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .modal label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #f1e9e9;
+  }
+  
+  .modal input[type="text"],
+  .modal textarea,
+  .modal input[type="date"] {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 400px;
+    box-sizing: border-box;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit-button {
+    font-size: 1rem;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #20a426;
+    color: white;
+  }
+  
+  .submit-button:hover {
+    background: #28d152;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #b20909;
+  }
+  
+  .close-button:hover {
+    color: #f2eeee;
+  }
+  
+
+  /*****TaskHistory******/
+.task-history-container {
+  background: transparent;
+  border-radius: 10px;
+  margin: 20px;
+  position: absolute;
+  top: 10vh;
+  right: 2.5vw;
+  width: 72vw;
+  height: 75vh;
+}
+
+.task-history-container h1 {
+  font-size: 2.2rem;
+  color: black;
+  margin-bottom: .1rem;
+}
+
+.task-history-container p {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.filter-container {
+  position: absolute;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.filter-container h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+label {
+  color: #ffffff;
+  margin-right: 10px;
+}
+.filter-container select {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.task-list {
+  background: transparent;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.task-list table {
+  width: 100%;
+  border-collapse: collapse;
+  position: absolute;
+}
+
+.task-list th,
+.task-list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.task-list th {
+  background: #1a1a1b;
+  color: white;
+}
+
+.task-list td {
+  text-align: left;
+}
+
+.task-list td.missed {
+  color: red;
+}
+
+.task-list td.done {
+  color: green;
+}
+
+
+
+/*****Calendar******/
+/* Container styling */
+.calendar-container {
+  background: transparent;
+  border-radius: 10px;
+  margin: 20px;
+  position: absolute;
+  top: 10vh;
+  right: 2.5vw;
+  width: 72vw;
+  height: 75vh;
+}
+
+/* Heading styling */
+.calendar-container h1 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1vh  ;
+}
+
+/* Paragraph styling */
+.calendar-container p {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 1vh;
+}
+
+/* Calendar content styling */
+.calendar-content {
+  background: transparent;
+}
+
+/* Overriding big calendar styles */
+.rbc-calendar {
+  background:  white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.rbc-toolbar {
+  background: #e3e5e7;
+  color: rgb(17, 16, 16);
+  border: #0e0f0f solid 1px;
+  border-radius: 5px;
+}
+
+.rbc-toolbar button {
+  color: rgb(240, 235, 235);
+  background: #e9e9ec;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.rbc-toolbar button:hover {
+  background: #564aa3;
+}
+
+.rbc-event {
+  background: #667eea;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rbc-event:hover {
+  background: #564aa3;
+}
+
+.rbc-month-view, .rbc-time-view {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.rbc-day-bg, .rbc-time-column, .rbc-time-gutter, .rbc-header {
+  background: #f9f9f9;
+}
+
+.rbc-header {
+  color: #667eea;
+  font-weight: bold;
+}
+
+.rbc-today {
+  background: rgba(102, 126, 234, 0.1);
+}
